@@ -3,7 +3,7 @@ This code designed to help researcher and student to study and analyze the struc
 The code support a plainText and a cypherKey of 64-bit only and both must be in hex format.
 The code will also show all rounds with the encryption on each round.
 
-##EXAMPLE
+## EXAMPLE
 plainText = "123456ABCD132536";
 key = "AABB09182736CCDD";
 will generate
