@@ -9,12 +9,10 @@
 using namespace std;
 
 int main() {
-    // The code structure is base on "Cryptography and Network Security by Behrouz A. Forouzan"
-    //TODO: 1- getopt to parse argument 
+    //TODO: 1- getopt to parse arguments 
     //      2- write usage 
     //      3- build ECG, CGC,..., etc to support long documents 
     //      4- the code currently support 64 bit long as input
-    // change palinTest and key as needed to study and analyze DES structure 
 	string plainText = "123456ABCD132536";
 	string key = "AABB09182736CCDD";
 	DES des (plainText, key);
