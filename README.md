@@ -1,5 +1,5 @@
 # DES-Cryptography
-This code designed to help researcher and student to study and analyze the structre of DES. 
+This code designed to help researchers and students to study and analyze the structre of DES. 
 The code support a plainText and a cypherKey of 64-bit only and both must be in hex format.
 The code will also show all rounds with the encryption on each round.
 The code structure is based on "Cryptophy and Network Security" by Behrouz A. Forouzan
