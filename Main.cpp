@@ -35,8 +35,3 @@ int main() {
 	// we need to use one of the five mode of operation for block cipher (DES< AES, ..)
 	// (ECB, CBC, CFB, OFB. ..).
 }
-void usage() {
-    cout << "./des [PainTest] [Key]" << endl;
-    cout << "./des [PainTest] [Key]" << endl;
-}
-
