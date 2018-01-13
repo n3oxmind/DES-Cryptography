@@ -4,7 +4,7 @@ The code support a plainText and a cypherKey of 64-bit only and both must be in 
 The code will also show all rounds with the encryption on each round.
 
 ## EXAMPLE
-plainText = "123456ABCD132536";
+`plainText = "123456ABCD132536";
 key = "AABB09182736CCDD";
 will generate
 round    left       right     Round Key
@@ -29,7 +29,7 @@ Key        : AABB09182736CCDD
 Cipher Text: C0B7A8D05F3A829C
 Plain  Text: 0001001000110100010101101010101111001101000100110010010100110110
 Key        : 1010101010111011000010010001100000100111001101101100110011011101
-Cipher Text: 1100000010110111101010001101000001011111001110101000001010011100
+Cipher Text: 1100000010110111101010001101000001011111001110101000001010011100`
 
 NOTE: This code has no command line option,so every time you need to change the plainTest and/or cipherKey change
 them in the Main.cpp file and recompile the code with g++. as bellow
