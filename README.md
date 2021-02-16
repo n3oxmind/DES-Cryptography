@@ -1,8 +1,7 @@
-# DES-Cryptography
-This code designed to help researchers and students to study and analyze the structre of DES. 
-The code support a plainText and a cypherKey of 64-bit only and both must be in hex format.
-The code will also show all rounds with the encryption on each round.
-The code structure is based on "Cryptophy and Network Security" by Behrouz A. Forouzan
+# DES (Data Encryption Standard
+This code designed to help researchers and students to study and analyze the structre of DES. plainText and a cypherKey must be a 64-bit long.
+All encryption rounds will be printed out on each run. The code structure is based on "Cryptography and Network Security" by Behrouz A. Forouzan
+
 ### EXAMPLE
 ```sh
 plainText = "123456ABCD132536";
@@ -33,7 +32,7 @@ Key        : 1010101010111011000010010001100000100111001101101100110011011101
 Cipher Text: 1100000010110111101010001101000001011111001110101000001010011100
 ```
 NOTE: This code has no command line options,so every time you need to change the plainText and/or cipherKey change
-them in the Main.cpp file and recompile the code with g++. as bellow
-`g++ Main.cpp DES.cpp DES.h Colors.h -o des`
-to run it type
+them from inside the Main.cpp file and recompile the code with g++. as bellow
+`g++ Main.cpp DES.cpp DES.h Colors.h -o des`. 
+To run it type
 `./des`
