@@ -1,4 +1,4 @@
-# DES (Data Encryption Standard
+# DES (Data Encryption Standard)
 This code designed to help researchers and students to study and analyze the structre of DES. plainText and a cypherKey must be a 64-bit long.
 All encryption rounds will be printed out on each run. The code structure is based on "Cryptography and Network Security" by Behrouz A. Forouzan
 
